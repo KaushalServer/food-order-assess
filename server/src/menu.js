@@ -1,0 +1,8 @@
+export const menu = [
+  { id: 'margherita', name: 'Margherita Pizza', description: 'San Marzano tomato, fresh mozzarella, basil.', price: 329, category: 'Pizza', image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=85', available: true, tag: 'Bestseller' },
+  { id: 'pepperoni', name: 'Pepperoni Classic', description: 'Crisp pepperoni, mozzarella, and our house tomato sauce.', price: 429, category: 'Pizza', image: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=900&q=85', available: true, tag: 'Popular' },
+  { id: 'smash-burger', name: 'Double Smash Burger', description: 'Two smashed patties, cheddar, pickles, and burger sauce.', price: 289, category: 'Burgers', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85', available: true, tag: 'House favorite' },
+  { id: 'crispy-chicken', name: 'Crispy Chicken Burger', description: 'Buttermilk chicken, slaw, and a little chilli honey.', price: 259, category: 'Burgers', image: 'https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=900&q=85', available: true },
+  { id: 'burrata-salad', name: 'Burrata Garden Salad', description: 'Creamy burrata, ripe tomatoes, greens, and basil oil.', price: 319, category: 'Sides', image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85', available: true, tag: 'Fresh' },
+  { id: 'lemonade', name: 'Pink Lemonade', description: 'Fresh-squeezed lemons, berries, and sparkling water.', price: 99, category: 'Drinks', image: 'https://images.unsplash.com/photo-1513558161293-cdaf765edfd7?auto=format&fit=crop&w=900&q=85', available: true }
+];

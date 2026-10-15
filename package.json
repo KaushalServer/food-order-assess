@@ -1,0 +1,15 @@
+{
+  "name": "food-order-management-assessment",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c green,blue \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm --workspace server run dev",
+    "dev:client": "npm --workspace client run dev",
+    "test": "npm --workspace server test && npm --workspace client test",
+    "build": "npm --workspace client run build",
+    "start": "npm --workspace server start"
+  },
+  "devDependencies": { "concurrently": "^9.1.2" }
+}
